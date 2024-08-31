@@ -1,5 +1,5 @@
 {
-  "name": "DREADED V2",
+  "name": "NAIROBI TECH BOT",
   "description": "This is a simple whatsapp bot built with nodejs and baileys with MD support.",
   "keywords": [
     "bot",
@@ -16,7 +16,7 @@
   ],
   "website": "https://github.com/Fortunatusmokaya/dreaded-v2#readme",
   "repository": "https://github.com/Fortunatusmokaya/dreaded-v2.git",
-  "logo": "https://telegra.ph/file/d6dab955fbaa42fce2280.jpg",
+  "logo": "https://telegra.ph/file/578670ec160b66d4fba78.jpg",
   "success_url": "/",
   "env": {
     "PREFIX": {
@@ -25,7 +25,7 @@
       "required": true
     },
     "DEV": {
-      "description": "Put any phone numbers you want to be bot owner without + or spaces \",\" Ex: 254114018035, 254741889898 ",
+      "description": "Put any phone numbers you want to be bot owner without + or spaces \",\" Ex: 254712703241, 254771077131 ",
       "required": false
     },
     "CODE": {
@@ -60,7 +60,7 @@
 "EVENTS": {
       "description": "choose whether to allow bot to detect events in groups such as promote, demote, remove and add. If set to true bot will send welcome/goodbye messages and signal when somebody is promoted or demoted.",
       "value": "true",
-      "required": true
+      "required": false
     },
 "AUTOBIO": {
       "description": "Type true if you want bot to autoupdate it's bio constantly",

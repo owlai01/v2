@@ -21,7 +21,7 @@ const Events = async (client, Fortu) => {
             if (Fortu.action == "add") {
                 let userName = num;
 
-                let Welcometext = ` Holla @${userName.split("@")[0]} 👋\n\nWelcome to ${metadata.subject}.\n\nGroup Description:-  ${desc}\n\nThank You.\n\nThis is an automated message sent by ${botname} via baileys.`;
+                let Welcometext = ` Aloha @${userName.split("@")[0]} 👋\n\nWelcome to ${metadata.subject}.\n\nGroup Description:-  ${desc}\n\nThank You.\n\nThis is an automated message sent by ${botname} via baileys.`;
                 if (events === 'true') {
                     await client.sendMessage(Fortu.id, {
                         image: { url: dpuser },
@@ -33,7 +33,7 @@ const Events = async (client, Fortu) => {
                 let userName2 = num;
 
                 let Lefttext = `
-          Good bye @${userName2.split("@")[0]} 👋, probably not gonna miss you `;
+          Adios @${userName2.split("@")[0]} 👋, probably not gonna miss you `;
                 if (events === 'true') {
                     await client.sendMessage(Fortu.id, {
                         image: { url: dpuser },
