@@ -36,7 +36,7 @@ module.exports = async (context) => {
             return DateTime.now().setZone('Africa/Nairobi').toLocaleString(DateTime.TIME_SIMPLE);
         };
 
-        let menuText = `Holla, ${getGreeting()},\n\n`;
+        let menuText = `Aloha, ${getGreeting()},\n\n`;
 
         menuText += `👥 𝑼𝑺𝑬𝑹:- ${m.pushName}\n`;
         menuText += `👤 𝑩𝑶𝑻𝑵𝑨𝑴𝑬:- ${botname}\n`;
@@ -83,7 +83,7 @@ menuText += `🔓 𝑴𝑶𝑫𝑬:- ${mode}\n`;
         }
 
         await client.sendMessage(m.chat, {
-            video: { url: "https://telegra.ph/file/db49f1db0ec49d2ed289f.mp4" },
+            video: { url: "https://telegra.ph/file/c5abb26e4ab552630682f.mp4" },
             caption: menuText,
             gifPlayback: true
         }, {
